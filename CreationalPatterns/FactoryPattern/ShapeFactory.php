@@ -5,13 +5,19 @@
  * Date: 2019/6/16
  * Time: 23:32
  */
-include "./Shape/Shape.php";
-include "./Shape/Circle.php";
-include "./Shape/Square.php";
-include "./Shape/Rectangle.php";
+namespace PHPDesignPatterns\CreationalPatterns\FactoryPattern;
+
+use PHPDesignPatterns\CreationalPatterns\FactoryPattern\Shape;
+use PHPDesignPatterns\CreationalPatterns\FactoryPattern\Shape\Circle;
+use PHPDesignPatterns\CreationalPatterns\FactoryPattern\Shape\Square;
+use PHPDesignPatterns\CreationalPatterns\FactoryPattern\Shape\Rectangle;
 
 class ShapeFactory
 {
+    /**
+     * @param $shapeType
+     * @return Shape\Shape|null
+     */
     public function getShape($shapeType) {
         if($shapeType == 'Circle') {
             return new Circle();

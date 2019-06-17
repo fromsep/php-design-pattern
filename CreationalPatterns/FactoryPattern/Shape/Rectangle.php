@@ -5,8 +5,8 @@
  * Date: 2019/6/16
  * Time: 23:31
  */
-
-class Rectangle
+namespace PHPDesignPatterns\CreationalPatterns\FactoryPattern\Shape;
+class Rectangle implements Shape
 {
     public function draw() {
         echo "draw a rectangle\n";

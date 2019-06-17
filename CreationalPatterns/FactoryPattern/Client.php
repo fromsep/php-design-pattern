@@ -5,8 +5,9 @@
  * Date: 2019/6/16
  * Time: 23:39
  */
+namespace PHPDesignPatterns\CreationalPatterns\FactoryPattern;
 
-include "./ShapeFactory.php";
+include "../../vendor/autoload.php";
 
 $factory = new ShapeFactory();
 
