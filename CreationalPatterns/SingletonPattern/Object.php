@@ -6,7 +6,7 @@ class Object
     private static $instance;
 
     // 私有化构造方法
-    public function __construct()
+    private function __construct()
     {
     }
 
