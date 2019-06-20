@@ -1,0 +1,23 @@
+<?php
+namespace PHPDesignPatterns\StructualPatterns\FilterPattern\Criteria;
+
+use PHPDesignPatterns\StructualPatterns\FilterPattern\Person;
+
+class MaleCriteria implements ICriteria
+{
+    /**
+     * @param Person[] $persons
+     * @return Person[]
+     */
+    public function meet($persons) {
+        $femalePersons = [];
+
+        foreach ($persons as &$person) {
+            if(strtolower($person->getGender()) == self::GENDER_MALE) {
+                $femalePersons[] = $person;
+            }
+        }
+
+        return $femalePersons;
+    }
+}
