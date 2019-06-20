@@ -6,6 +6,9 @@ class Employee
     private $name;
     private $dept;
     private $salary;
+    /**
+     * @var Employee[]
+     */
     private $subordinates = [];
 
     public function __construct($name, $dept, $salary) {
@@ -31,9 +34,6 @@ class Employee
         }
     }
 
-    /**
-     * @return Employee[]
-     */
     public function getSubordinates() {
         return $this->subordinates;
     }
