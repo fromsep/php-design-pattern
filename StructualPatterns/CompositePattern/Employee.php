@@ -25,13 +25,15 @@ class Employee
 
     public function removeSubordinate(Employee $employee) {
         foreach ($this->subordinates as $key => $subordinate) {
-            if( $subordinate->getName == $employee->getName() ) {
+            if( $subordinate->getName() == $employee->getName() ) {
                 unset($this->subordinates[$key]);
             }
         }
     }
 
-
+    /**
+     * @return Employee[]
+     */
     public function getSubordinates() {
         return $this->subordinates;
     }
