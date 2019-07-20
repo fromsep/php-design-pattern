@@ -1,8 +1,8 @@
 <?php
-namespace PHPDesignPatterns\BehavioralPatternss\CommandPattern;
+namespace PHPDesignPatterns\BehavioralPatterns\CommandPattern;
 
-use PHPDesignPatterns\BehavioralPatternss\CommandPattern\Command\BuyStock;
-use PHPDesignPatterns\BehavioralPatternss\CommandPattern\Command\SellStock;
+use PHPDesignPatterns\BehavioralPatterns\CommandPattern\Command\BuyStock;
+use PHPDesignPatterns\BehavioralPatterns\CommandPattern\Command\SellStock;
 
 include "../../vendor/autoload.php";
 

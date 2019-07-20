@@ -1,10 +1,10 @@
 <?php
-namespace PHPDesignPatterns\BehavioralPatternss\ChainOfResponsibilityPattern;
+namespace PHPDesignPatterns\BehavioralPatterns\ChainOfResponsibilityPattern;
 
-use PHPDesignPatterns\BehavioralPatternss\ChainOfResponsibilityPattern\Logger\Logger;
-use PHPDesignPatterns\BehavioralPatternss\ChainOfResponsibilityPattern\Logger\ConsoleLogger;
-use PHPDesignPatterns\BehavioralPatternss\ChainOfResponsibilityPattern\Logger\FileLogger;
-use PHPDesignPatterns\BehavioralPatternss\ChainOfResponsibilityPattern\Logger\ErrorLogger;
+use PHPDesignPatterns\BehavioralPatterns\ChainOfResponsibilityPattern\Logger\Logger;
+use PHPDesignPatterns\BehavioralPatterns\ChainOfResponsibilityPattern\Logger\ConsoleLogger;
+use PHPDesignPatterns\BehavioralPatterns\ChainOfResponsibilityPattern\Logger\FileLogger;
+use PHPDesignPatterns\BehavioralPatterns\ChainOfResponsibilityPattern\Logger\ErrorLogger;
 
 include "../../vendor/autoload.php";
 

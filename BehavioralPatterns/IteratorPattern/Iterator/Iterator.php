@@ -1,5 +1,5 @@
 <?php
-namespace PHPDesignPatterns\BehavioralPatternss\IteratorPattern\Iterator;
+namespace PHPDesignPatterns\BehavioralPatterns\IteratorPattern\Iterator;
 
 interface Iterator
 {

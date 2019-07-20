@@ -1,5 +1,5 @@
 <?php
-namespace PHPDesignPatterns\BehavioralPatternss\IteratorPattern\Container;
+namespace PHPDesignPatterns\BehavioralPatterns\IteratorPattern\Container;
 
 interface IContainer
 {

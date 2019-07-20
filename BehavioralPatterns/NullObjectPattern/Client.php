@@ -1,5 +1,5 @@
 <?php
-namespace PHPDesignPatterns\BehavioralPatternss\NullObjectPattern;
+namespace PHPDesignPatterns\BehavioralPatterns\NullObjectPattern;
 
 include "../../vendor/autoload.php";
 

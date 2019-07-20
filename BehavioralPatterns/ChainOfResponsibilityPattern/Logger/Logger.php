@@ -1,5 +1,5 @@
 <?php
-namespace PHPDesignPatterns\BehavioralPatternss\ChainOfResponsibilityPattern\Logger;
+namespace PHPDesignPatterns\BehavioralPatterns\ChainOfResponsibilityPattern\Logger;
 
 abstract class Logger
 {

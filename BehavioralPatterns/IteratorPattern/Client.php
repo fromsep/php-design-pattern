@@ -1,7 +1,7 @@
 <?php
-namespace PHPDesignPatterns\BehavioralPatternss\IteratorPattern;
+namespace PHPDesignPatterns\BehavioralPatterns\IteratorPattern;
 
-use PHPDesignPatterns\BehavioralPatternss\IteratorPattern\Container\NameRepository;
+use PHPDesignPatterns\BehavioralPatterns\IteratorPattern\Container\NameRepository;
 
 include "../../vendor/autoload.php";
 

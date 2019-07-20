@@ -1,5 +1,5 @@
 <?php
-namespace PHPDesignPatterns\BehavioralPatternss\MementoPattern;
+namespace PHPDesignPatterns\BehavioralPatterns\MementoPattern;
 
 
 class Originator

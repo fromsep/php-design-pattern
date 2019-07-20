@@ -1,5 +1,5 @@
 <?php
-namespace PHPDesignPatterns\BehavioralPatternss\CommandPattern\Command;
+namespace PHPDesignPatterns\BehavioralPatterns\CommandPattern\Command;
 
 interface ICommand
 {

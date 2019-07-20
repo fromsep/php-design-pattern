@@ -1,5 +1,5 @@
 <?php
-namespace PHPDesignPatterns\BehavioralPatternss\MediatorPattern;
+namespace PHPDesignPatterns\BehavioralPatterns\MediatorPattern;
 
 include "../../vendor/autoload.php";
 

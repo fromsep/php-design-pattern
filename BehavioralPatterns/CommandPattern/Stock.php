@@ -1,5 +1,5 @@
 <?php
-namespace PHPDesignPatterns\BehavioralPatternss\CommandPattern;
+namespace PHPDesignPatterns\BehavioralPatterns\CommandPattern;
 
 
 class Stock

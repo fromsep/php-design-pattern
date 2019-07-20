@@ -1,7 +1,7 @@
 <?php
-namespace PHPDesignPatterns\BehavioralPatternss\MementoPattern;
+namespace PHPDesignPatterns\BehavioralPatterns\MementoPattern;
 
-use PHPDesignPatterns\BehavioralPatternss\TemplatePattern\Game\Cricket;
+use PHPDesignPatterns\BehavioralPatterns\TemplatePattern\Game\Cricket;
 
 include "../../vendor/autoload.php";
 

@@ -1,7 +1,7 @@
 <?php
-namespace PHPDesignPatterns\BehavioralPatternss\IteratorPattern\Container;
+namespace PHPDesignPatterns\BehavioralPatterns\IteratorPattern\Container;
 
-use PHPDesignPatterns\BehavioralPatternss\IteratorPattern\Iterator\NameIterator;
+use PHPDesignPatterns\BehavioralPatterns\IteratorPattern\Iterator\NameIterator;
 
 class NameRepository implements IContainer
 {

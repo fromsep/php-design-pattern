@@ -1,8 +1,8 @@
 <?php
-namespace PHPDesignPatterns\BehavioralPatternss\CommandPattern\Command;
+namespace PHPDesignPatterns\BehavioralPatterns\CommandPattern\Command;
 
 
-use PHPDesignPatterns\BehavioralPatternss\CommandPattern\Stock;
+use PHPDesignPatterns\BehavioralPatterns\CommandPattern\Stock;
 
 class BuyStock implements ICommand
 {

@@ -1,7 +1,7 @@
 <?php
-namespace PHPDesignPatterns\BehavioralPatternss\CommandPattern;
+namespace PHPDesignPatterns\BehavioralPatterns\CommandPattern;
 
-use PHPDesignPatterns\BehavioralPatternss\CommandPattern\Command\ICommand;
+use PHPDesignPatterns\BehavioralPatterns\CommandPattern\Command\ICommand;
 
 class Broker {
     /**
